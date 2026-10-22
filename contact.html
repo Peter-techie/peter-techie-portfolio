@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Ebenezer Emmanuel (Peter) for freelance web development work or collaboration."
+    />
+    <meta property="og:title" content="Contact - Peter Techie">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Get in touch with Peter Techie for freelance work, collaboration, or remote opportunities.">
+    <meta property="og:image" content="https://peter-techie.github.io/peter-techie-portfolio/logo.png">
+    <meta property="og:url" content="https://peter-techie.github.io/peter-techie-portfolio/contact.html">
+    <meta name="twitter:card" content="summary_large_image">
+    <title>Contact - Peter Techie</title>
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <header>
+      <nav aria-label="Main Navigation">
+        <div class="brand">
+          <img src="logo.png" alt="Peter Techie logo" />
+          <span>Peter Techie</span>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <section aria-labelledby="contact-heading">
+        <h1 id="contact-heading">Contact Me</h1>
+        <p>
+          I am open to freelance projects, collaborations,
+          and remote work opportunities. Reach me directly
+          through any of the channels below.
+        </p>
+      </section>
+
+      <section aria-labelledby="direct-heading">
+        <h2 id="direct-heading">Direct Contact</h2>
+        <ul>
+          <li>
+            <strong>Email:</strong>
+            <a href="mailto:emmanuel08122@gmail.com">emmanuel08122@gmail.com</a>
+          </li>
+          <li>
+            <strong>GitHub:</strong>
+            <a
+              href="https://github.com/peter-techie"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github.com/peter-techie
+            </a>
+          </li>
+          <li>
+            <strong>LinkedIn:</strong>
+            <a
+              href="https://linkedin.com/in/emmanuel-ebenezer-a4bb1241a"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              linkedin.com/in/emmanuel-ebenezer
+            </a>
+          </li>
+          <li>
+            <strong>X (Twitter):</strong>
+            <a
+              href="https://x.com/peter_techie"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              x.com/peter_techie
+            </a>
+          </li>
+          <li>
+            <strong>Location:</strong>
+            Uyo, Akwa Ibom State, Nigeria
+          </li>
+          <li>
+            <strong>Availability:</strong>
+            Open to remote work worldwide
+          </li>
+        </ul>
+      </section>
+
+      <section aria-labelledby="form-heading">
+        <h2 id="form-heading">Send Me a Message</h2>
+        <p>
+          Fill the form below and I will get back to you
+          as soon as possible.
+        </p>
+
+        <form action="" method="GET" aria-label="Contact form">
+
+          <fieldset>
+            <legend>Your Information</legend>
+
+            <label for="fullName">Full Name *</label><br />
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="e.g., John Doe"
+              required
+              minlength="2"
+              maxlength="100"
+              autocomplete="name"
+            /><br /><br />
+
+            <label for="email">Email Address *</label><br />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="example@gmail.com"
+              required
+              minlength="6"
+              maxlength="100"
+              autocomplete="email"
+            /><br /><br />
+
+            <label for="phone">
+              Phone Number
+              <span>(optional)</span>
+            </label><br />
+            <input
+              type="tel"
+              id="phone"
+              name="phone"
+              placeholder="+2348012345678"
+              minlength="11"
+              maxlength="15"
+              autocomplete="tel"
+            /><br /><br />
+
+            <label for="country">Country *</label><br />
+            <select id="country" name="country" required>
+              <option value="">(Select your country)</option>
+              <option value="nigeria">Nigeria</option>
+              <option value="ghana">Ghana</option>
+              <option value="kenya">Kenya</option>
+              <option value="southafrica">South Africa</option>
+              <option value="uk">United Kingdom</option>
+              <option value="usa">United States</option>
+              <option value="canada">Canada</option>
+              <option value="other">Other</option>
+            </select><br /><br />
+
+          </fieldset>
+
+          <br />
+
+          <fieldset>
+            <legend>Your Request</legend>
+
+            <label for="subject">Subject *</label><br />
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="e.g., I need a website built"
+              required
+              minlength="5"
+              maxlength="150"
+            /><br /><br />
+
+            <p id="reason-label">Reason for Contact *</p>
+            <div role="group" aria-labelledby="reason-label">
+
+              <input
+                type="radio"
+                id="freelance"
+                name="reason"
+                value="freelance"
+                required
+              />
+              <label for="freelance">Freelance Project</label><br />
+
+              <input
+                type="radio"
+                id="collaboration"
+                name="reason"
+                value="collaboration"
+              />
+              <label for="collaboration">Collaboration</label><br />
+
+              <input
+                type="radio"
+                id="mentorship"
+                name="reason"
+                value="mentorship"
+              />
+              <label for="mentorship">Mentorship</label><br />
+
+              <input
+                type="radio"
+                id="job"
+                name="reason"
+                value="job"
+              />
+              <label for="job">Job Opportunity</label><br />
+
+              <input
+                type="radio"
+                id="other-reason"
+                name="reason"
+                value="other"
+              />
+              <label for="other-reason">Other</label>
+
+            </div><br />
+
+            <p id="services-label">
+              Services Needed (select all that apply)
+            </p>
+            <div role="group" aria-labelledby="services-label">
+
+              <input
+                type="checkbox"
+                id="html-css"
+                name="services"
+                value="html-css"
+              />
+              <label for="html-css">HTML and CSS Website</label><br />
+
+              <input
+                type="checkbox"
+                id="landing-page"
+                name="services"
+                value="landing-page"
+              />
+              <label for="landing-page">Landing Page</label><br />
+
+              <input
+                type="checkbox"
+                id="contact-form"
+                name="services"
+                value="contact-form"
+              />
+              <label for="contact-form">Contact Form</label><br />
+
+              <input
+                type="checkbox"
+                id="portfolio-site"
+                name="services"
+                value="portfolio-site"
+              />
+              <label for="portfolio-site">Portfolio Website</label><br />
+
+              <input
+                type="checkbox"
+                id="other-service"
+                name="services"
+                value="other"
+              />
+              <label for="other-service">Other</label>
+
+            </div><br />
+
+            <label for="message">Your Message *</label><br />
+            <textarea
+              id="message"
+              name="message"
+              rows="6"
+              cols="50"
+              placeholder="Tell me about your project or what you need help with..."
+              required
+              minlength="20"
+            ></textarea><br /><br />
+
+            <label for="hearAbout">
+              How did you hear about me?
+              <span>(optional)</span>
+            </label><br />
+            <select id="hearAbout" name="hearAbout">
+              <option value="">(Select one)</option>
+              <option value="github">GitHub</option>
+              <option value="linkedin">LinkedIn</option>
+              <option value="twitter">X (Twitter)</option>
+              <option value="referral">Friend or Colleague</option>
+              <option value="google">Google Search</option>
+              <option value="fiverr">Fiverr</option>
+              <option value="other">Other</option>
+            </select><br /><br />
+
+          </fieldset>
+
+          <br />
+
+          <fieldset>
+            <legend>Confirmation</legend>
+
+            <input
+              type="checkbox"
+              id="agreeContact"
+              name="agreeContact"
+              value="yes"
+              required
+            />
+            <label for="agreeContact">
+              I agree to be contacted by Peter Emmanuel *
+            </label><br /><br />
+
+          </fieldset>
+
+          <br />
+
+          <button type="submit">Send Message</button>
+          &nbsp;&nbsp;
+          <button type="reset">Clear Form</button>
+
+        </form>
+
+      </section>
+
+    </main>
+
+    <footer>
+      <p>
+        &copy; 2026 Ebenezer Emmanuel (Peter) — Peter Techie
+      </p>
+      <nav aria-label="Footer Navigation">
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="skills.html">Skills</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="contact.html">Contact</a>
+      </nav>
+    </footer>
+
+  </body>
+</html>
