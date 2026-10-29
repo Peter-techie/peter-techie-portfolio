@@ -1,56 +1,48 @@
-# 🟡 Peter Techie — Portfolio
+# Peter Techie: Portfolio
 
-**Ideas / Code / Solutions**
+The personal portfolio of **Ebenezer Emmanuel (Peter)**, a web developer from
+Uyo, Nigeria. It shows the HTML and CSS projects I built while learning with
+freeCodeCamp.
 
-My personal portfolio website — a 5-page site built with pure HTML5 and hand-written CSS, documenting my journey from complete beginner to full-stack developer, live from Uyo, Nigeria. 🇳🇬
+## 🔗 Live site
 
-🔗 **Live Site:** [https://peter-techie.github.io/peter-techie-portfolio/](https://peter-techie.github.io/peter-techie-portfolio/)
-
-## 📸 Preview
-
-*(`![Peter Techie Portfolio Preview](preview.png)`)*
-
-## 💡 About This Project
-
-This site is the single hub for everything I build. Instead of scattering my work across separate GitHub Pages links, every project I ship gets added here — with a screenshot, a short description, and the tech used — so one link is all anyone needs to see my progress.
-
-It also doubles as my own learning log: the **About** page tracks my journey month by month, and the **Skills** page updates as I pick up new tools.
+https://peter-techie.github.io/peter-techie-portfolio/
 
 ## 📄 Pages
 
-| Page | What's There |
-|---|---|
-| **Home** | Quick introduction, current focus, and goals |
-| **About** | My story, a timeline of my learning journey, and short/medium/long-term goals |
-| **Skills** | What I know in HTML and CSS, plus the tools I use daily |
-| **Projects** | Every project I've built, each tagged by what it was built with and what it taught me |
-| **Contact** | Direct links (Email, GitHub, LinkedIn, X) and a full contact form |
+| Page | What it shows |
+| --- | --- |
+| `index.html` | Home and introduction |
+| `about.html` | My story and journey |
+| `skills.html` | What I can do |
+| `projects.html` | 15+ projects with live links |
+| `contact.html` | How to reach me |
 
-## 🛠️ Built With
+## 🛠️ Built with
 
-- Semantic HTML5 — accessible structure, forms, tables, media embedding
-- CSS3 — custom properties, flexbox, attribute selectors, gradients, responsive design
-- No frameworks, no JavaScript — every layout and interaction here is pure HTML and CSS
+- Semantic HTML5
+- CSS3 (Flexbox, Grid, variables, media queries)
+- ARIA labels and accessible navigation
+- Open Graph tags for nice link previews
+- GitHub Pages for hosting
 
-## 🎯 Where I'm Headed
+## ✨ Highlights
 
-I'm following a long-term roadmap from HTML and CSS through JavaScript, React, full-stack development, Python, and eventually AI Engineering. This portfolio grows as I do — check the About page for the full timeline.
+- Fully responsive from phone to desktop
+- Accessible: semantic landmarks, alt text, visible focus
+- Every project has a live link
 
-## 🚀 Run It Locally
+## 🚀 Run it locally
 
-1. Clone or download this repository
-2. Open `index.html` in any web browser — no build tools needed
-3. To edit, open the folder in VS Code and use the Live Server extension to preview changes instantly
+1. Download or clone the repo.
+2. Open the folder in VS Code.
+3. Right-click `index.html` and choose **Open with Live Server**.
 
-## 📬 Get In Touch
+## 👤 Author
 
-I'm open to freelance work, collaboration, and remote opportunities.
+**Ebenezer Emmanuel (Peter Techie)**
+[GitHub](https://github.com/peter-techie) · [X](https://x.com/peter_techie) · [LinkedIn](https://www.linkedin.com/in/emmanuel-ebenezer-a4bb1241a)
 
-- Email: [emmanuel08122@gmail.com](mailto:emmanuel08122@gmail.com)
-- GitHub: [@peter-techie](https://github.com/peter-techie)
-- LinkedIn: [Ebenezer Emmanuel](https://linkedin.com/in/emmanuel-ebenezer-a4bb1241a)
-- X: [@peter_techie](https://x.com/peter_techie)
+## 📜 License
 
----
-
-⭐ If you find this useful or inspiring, feel free to star the repo — and follow along as I build my way from HTML to AI.
+MIT
